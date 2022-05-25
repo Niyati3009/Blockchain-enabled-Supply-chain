@@ -20,8 +20,8 @@
   "keywords": [],
   "license": "Apache 2.0",
   "repository": {
-    "type": "e.g. git",
-    "url": "URL"
+    "type": "git",
+    "url": "https://github.com/Niyati3009/testsupply-network.git"
   },
   "scripts": {
     "deploy": "./scripts/deploy.sh",
@@ -29,7 +29,7 @@
     "lint": "eslint .",
     "postlicchk": "npm run doc",
     "postlint": "npm run licchk",
-    "prepublish": "mkdirp ./dist && composer archive create  --sourceType dir --sourceName . -a ./dist/unnamed-network.bna",
+    "prepublish": "mkdirp ./dist && composer archive create  --sourceType dir --sourceName . -a ./dist/supplychain-network.bna",
     "pretest": "npm run lint",
     "test": "mocha --recursive"
   }
