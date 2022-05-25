@@ -2,7 +2,7 @@
   "name": "supplychain-network",
   "author": "author",
   "description": "supply chain network for tracking of products",
-  "version": "0.2.5",
+  "version": "0.0.1",
   "devDependencies": {
     "browserfs": "^1.2.0",
     "chai": "^3.5.0",
