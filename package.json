@@ -2,14 +2,14 @@
   "name": "supplychain-network",
   "author": "author",
   "description": "supply chain network for tracking of products",
-  "version": "1.0.0",
+  "version": "0.0.2-deploy.1",
   "devDependencies": {
     "browserfs": "^1.2.0",
     "chai": "^3.5.0",
-    "composer-admin": "0.20.9",
-    "composer-cli": "0.20.9",
-    "composer-client": "0.20.9",
-    "composer-connector-embedded": "0.20.9",
+    "composer-admin": "0.20.2",
+    "composer-cli": "0.20.2",
+    "composer-client": "0.20.2",
+    "composer-connector-embedded": "0.20.2",
     "eslint": "^3.6.1",
     "istanbul": "^0.4.5",
     "jsdoc": "^3.4.1",
@@ -21,7 +21,7 @@
   "license": "Apache 2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Niyati3009/test-2.git"
+    "url": "https://github.com/Niyati3009/test-3.git"
   },
   "scripts": {
     "deploy": "./scripts/deploy.sh",
