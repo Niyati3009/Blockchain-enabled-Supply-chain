@@ -1,5 +1,4 @@
 
-	
 
 {
   "engines": {
@@ -24,7 +23,47 @@
     "mocha": "^3.2.0",
     "moment": "^2.19.3"
   },
-  "keywords": [],
+	"license-check-and-add-config": {
+    "folder": ".",
+    "license": "LICENSE.txt",
+    "exact_paths_method": "EXCLUDE",
+    "exact_paths": [
+      "composer-logs",
+      "dist",
+      "node_modules",
+      "out",
+      ".git"
+    ],
+    "file_type_method": "EXCLUDE",
+    "file_types": [
+      ".yml"
+    ],
+    "insert_license": false,
+    "license_formats": {
+      "js|cto|acl": {
+        "prepend": "/*",
+        "append": " */",
+        "eachLine": {
+          "prepend": " * "
+        }
+      },
+      "md": {
+        "file": "../../markdown-license.txt"
+      }
+    }
+}
+	
+  "keywords": 
+	[
+		
+    "supplychain",
+    "commodity",
+    "transfer",
+    "composer",
+    "composer-network"
+	],
+	
+		
   "license": "Apache 2.0",
   "repository": {
     "type": "git",
@@ -40,4 +79,5 @@
     "pretest": "npm run lint",
     "test": "mocha --recursive"
   }
+	
 }
