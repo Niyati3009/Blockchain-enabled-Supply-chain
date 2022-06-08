@@ -71,7 +71,7 @@
   },
   "scripts": {
     "deploy": "./scripts/deploy.sh",
-    "doc": "jsdoc --pedantic --recurse -c jsdoc.json",
+    "doc": "jsdoc --pedantic --recurse -c jsdoc.conf",
     "lint": "eslint .",
     "postlicchk": "npm run doc",
     "postlint": "npm run licchk",
