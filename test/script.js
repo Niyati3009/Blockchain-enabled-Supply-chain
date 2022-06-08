@@ -23,7 +23,7 @@ const chai = require('chai');
 chai.should();
 chai.use(require('chai-as-promised'));
 
-const namespace = 'org.example.basic';
+const namespace = 'org.supplychain.network';
 
 
 describe('Sample', () => {
