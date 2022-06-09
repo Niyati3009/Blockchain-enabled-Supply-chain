@@ -1,10 +1,10 @@
 
 
-{
-  "engines": {
+{ 
+	"engines": {
 		"composer": "^0.20.2"
 	},
-
+	
   "name": "supplychain-network",
   "author": "author",
   "description": "supply chain network for tracking of products",
@@ -23,50 +23,10 @@
     "mocha": "^3.2.0",
     "moment": "^2.19.3"
   },
-	"license-check-and-add-config": {
-    "folder": ".",
-    "license": "LICENSE.txt",
-    "exact_paths_method": "EXCLUDE",
-    "exact_paths": [
-      "composer-logs",
-      "dist",
-      "node_modules",
-      "out",
-      ".git"
-    ],
-    "file_type_method": "EXCLUDE",
-    "file_types": [
-      ".yml"
-    ],
-    "insert_license": false,
-    "license_formats": {
-      "js|cto|acl": {
-        "prepend": "/*",
-        "append": " */",
-        "eachLine": {
-          "prepend": " * "
-        }
-      },
-      "md": {
-        "file": "../../markdown-license.txt"
-      }
-    }
-}
-	
-  "keywords": 
-	[
-		
-    "supplychain",
-    "commodity",
-    "transfer",
-    "composer",
-    "composer-network"
-	],
-	
-		
+  "keywords": [],
   "license": "Apache 2.0",
   "repository": {
-    "type": "git",
+    "type": "e.g. git",
     "url": "https://github.com/Niyati3009/test7.git"
   },
   "scripts": {
@@ -79,5 +39,4 @@
     "pretest": "npm run lint",
     "test": "mocha --recursive"
   }
-	
 }
